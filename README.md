@@ -1,6 +1,6 @@
 # gitflow-comandos
 
-## Initialize
+## Inicializar
 
 gitflow | git
 --------|-----
@@ -9,7 +9,7 @@ gitflow | git
 &nbsp; | `git checkout -b develop master`
 
 
-## Connect to the remote repository
+## Conectar a repositorio remoto
 
 gitflow | git
 --------|-----
@@ -18,14 +18,14 @@ _N/A_ | `git remote add origin git@github.com:MYACCOUNT/MYREPO`
 
 ## Features
 
-### Create a feature branch
+### Crear una rama feature 
 
 gitflow | git
 --------|-----
 `git flow feature start MYFEATURE` | `git checkout -b feature/MYFEATURE develop`
 
 
-### Share a feature branch
+### Compartir una rama feature
 
 gitflow | git
 --------|-----
@@ -33,7 +33,7 @@ gitflow | git
 &nbsp; | `git push origin feature/MYFEATURE`
 
 
-### Get latest for a feature branch
+### Obtener lo último de una rama feature
 
 gitflow | git
 --------|-----
@@ -41,7 +41,7 @@ gitflow | git
 &nbsp; | `git pull --rebase origin feature/MYFEATURE`
 
 
-### Finalize a feature branch
+### Finalizar una rama feature 
 
 gitflow | git
 --------|-----
@@ -50,7 +50,7 @@ gitflow | git
 &nbsp; | `git branch -d feature/MYFEATURE`
 
 
-### Push the merged feature branch
+### Subir la fusión de la rama feature
 
 gitflow | git
 --------|-----
@@ -60,14 +60,14 @@ _N/A_ | `git push origin develop`
 
 ## Releases
 
-### Create a release branch
+### Crear una rama release
 
 gitflow | git
 --------|-----
 `git flow release start 1.2.0` | `git checkout -b release/1.2.0 develop`
 
 
-### Share a release branch
+### Compartir una rama release 
 
 gitflow | git
 --------|-----
@@ -75,7 +75,7 @@ gitflow | git
 &nbsp; | `git push origin release/1.2.0`
 
 
-### Get latest for a release branch
+### Obtener lo último de una rama release 
 
 gitflow | git
 --------|-----
@@ -83,7 +83,7 @@ _N/A_ | `git checkout release/1.2.0`
 &nbsp; | `git pull --rebase origin release/1.2.0`
 
 
-### Finalize a release branch
+### Finalizar una rama release
 
 gitflow | git
 --------|-----
@@ -95,7 +95,7 @@ gitflow | git
 &nbsp; | `git branch -d release/1.2.0`
 
 
-### Push the merged feature branch
+### Subir la fusión de la rama feature
 
 gitflow | git
 --------|-----
@@ -107,14 +107,14 @@ _N/A_ | `git push origin master`
 
 ## Hotfixes
 
-### Create a hotfix branch
+### Crear una rama hotfix
 
 gitflow | git
 --------|-----
 `git flow hotfix start 1.2.1 [commit]` | `git checkout -b hotfix/1.2.1 [commit]`
 
 
-### Finalize a hotfix branch
+### Finalizar una rama hotfix
 
 gitflow | git
 --------|-----
@@ -126,7 +126,7 @@ gitflow | git
 &nbsp; | `git branch -d hotfix/1.2.1`
 
 
-### Push the merged hotfix branch
+### Subir la fusión de la rama hotfix
 
 gitflow | git
 --------|-----
