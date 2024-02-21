@@ -1,4 +1,4 @@
-# gitflow-comandos
+# Comandos gitflow
 
 ## Inicializar
 
