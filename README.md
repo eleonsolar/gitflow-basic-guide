@@ -1,6 +1,6 @@
 # Comandos gitflow
 
-## Inicializar
+## Inicializar repositorio
 
 gitflow | git
 --------|-----
